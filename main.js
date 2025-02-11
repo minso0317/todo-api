@@ -4,6 +4,7 @@ import Task from "./task.js";
 import * as dotenv from "dotenv";
 
 dotenv.config();
+
 const app = express();
 app.use(express.json());
 
@@ -92,5 +93,5 @@ app.delete(
 );
 
 app.listen(process.env.PORT, () =>
-  console.log(`Server started on port ${PORT}`)
+  console.log(`Server started on port ${process.env.PORT}`)
 );
