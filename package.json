@@ -1,9 +1,11 @@
 {
-  "name": "todoapi",
+  "name": "todo-api",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon main.js",
+    "seed": "node seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
