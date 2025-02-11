@@ -1,0 +1,26 @@
+###
+POST https://todo-api-0zxo.onrender.com/tasks
+Content-Type: application/json
+
+{
+  "title": "Node.js Express 웹 서버 배포 시작하기",
+  "description": "Express를 활용해 내 로컬에서 웹 서버 구동 배포"
+}
+
+###
+GET https://todo-api-0zxo.onrender.com/tasks?count=5
+
+###
+GET https://todo-api-0zxo.onrender.com/tasks/67ab1314961f6c160e32c320
+
+###
+PATCH https://todo-api-0zxo.onrender.com/tasks/67ab1314961f6c160e32c320
+Content-Type: application/json
+
+{
+  "title": "Express 웹 서버 배포 Update",
+  "description": "Express를 활용해 내 로컬에서 웹 서버 구동 배포 Update"
+}
+
+###
+DELETE https://todo-api-0zxo.onrender.com/tasks/67ab1314961f6c160e32c320
